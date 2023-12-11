@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-12-04T15:21:41.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="DbHjyhNP_Uu7fiPR_idI" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2023-12-05T16:21:28.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Jco22TW01iWzkRZfm-5s" version="22.1.2" type="device">
   <diagram name="Página-1" id="QdMVtgqyilFqjrBT13qO">
-    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
         <mxCell id="praxyIq5cIQ2sQXhG71v-3" value="Data Driven" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="429.75" y="124.25" width="78.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="praxyIq5cIQ2sQXhG71v-4" value="Page / Driver (AutoIt)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="praxyIq5cIQ2sQXhG71v-4" value="COM" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="203" width="180" height="27" as="geometry" />
         </mxCell>
         <mxCell id="praxyIq5cIQ2sQXhG71v-10" value="Gestor de Código Fuente" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -68,7 +68,7 @@
         <mxCell id="praxyIq5cIQ2sQXhG71v-14" value="Utilitarios" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="250" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="praxyIq5cIQ2sQXhG71v-16" value="Utils&lt;br&gt;&lt;br&gt;- Constantes&lt;br&gt;- DataDriven filter&lt;br&gt;- Escritura Feature&lt;br&gt;- Excel Reader&lt;br&gt;- Excepciones&lt;br&gt;- Generador datos&lt;br&gt;- Gestión de ambientes&lt;br&gt;- Generación logs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0EE;strokeColor=#333333;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+        <mxCell id="praxyIq5cIQ2sQXhG71v-16" value="Utils&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2F0EE;strokeColor=#333333;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="150" y="70" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="praxyIq5cIQ2sQXhG71v-17" value="Resultados (Serenity) - Work Item" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
