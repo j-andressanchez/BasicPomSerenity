@@ -2,9 +2,9 @@ Feature: Obtener Datos
 
   @ObtenerDatos
   Scenario Outline: Obtener datos de prueba
-  	Given obtener datos de prueba <Caso>
-		When realizar acciones
-		Then validacion de resultados
+  	Given Se obtienen los datos de prueba <Caso>
+		When Se realizan las acciones
+		Then Se validan los resultados
     
   Examples:
       | Caso | 

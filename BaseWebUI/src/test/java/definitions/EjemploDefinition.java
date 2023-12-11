@@ -17,12 +17,22 @@ public class EjemploDefinition {
 	}
 	
 	@When("El usuario ingresa con credenciales correctas")
-	public void iniciarSesion() {
+	public void iniciarSesionCorrecto() {
+		ejemploSteps.iniciarSesion();
+	}
+
+	@When("El usuario ingresa con credenciales incorrectas")
+	public void iniciarSesionIncorrecto() {
 		ejemploSteps.iniciarSesion();
 	}
 
 	@Then("El usuario debería acceder al catálogo")
 	public void validarLogin() {
+		ejemploSteps.validarLogin();
+	}
+
+	@Then("El usuario no debería acceder al catálogo")
+	public void validarLoginFail() {
 		ejemploSteps.validarLogin();
 	}
 

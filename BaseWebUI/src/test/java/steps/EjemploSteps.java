@@ -51,4 +51,15 @@ public class EjemploSteps {
 		}
 	}
 
+	@Step
+	public void validarLoginError() {
+		try {
+			accionesWeb.esperaElementoPresente(ejemploUi.getTextError());
+			accionesWeb.validarTexto(ejemploUi.getTextError(), dataDriven.getDataMap("AssertText"));
+			accionesWeb.esperaExplicita(2);
+		} catch (Exception e) {
+			ExcepcionesProyecto.validaExcepcion(e.toString());
+		}
+	}
+
 }
