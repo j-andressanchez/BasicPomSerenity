@@ -32,7 +32,7 @@ public class DataDrivenExcel extends PageObject {
 			}
 
 		} catch (Exception e) {
-			logger.info("Error en metodo cargarMapaDatos de la clase DataDrivenExcel");
+			logger.info("Error en metodo cargarMapaDatos de la clase DataDrivenExcel: " + e.getMessage());
 		}
 	}
 

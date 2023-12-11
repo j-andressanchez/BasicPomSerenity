@@ -1,6 +1,6 @@
 package utilities;
 
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
@@ -551,6 +551,24 @@ public class AccionesWeb extends PageObject {
 		} catch (Exception e) {
 			logger.error("en la clase AccionesWeb en el metodo esperaCargaFrame " + e);
 			ExcepcionesProyecto.validaExcepcion(e.toString());
+		}
+	}
+
+	/**
+	 * Metodo que compara el texto del contenido de un elemento con un String para
+	 * realizar un assert
+	 * 
+	 * @param element elemento de tipo WebElementFacade el cual se valida
+	 * @String String con el cual se compara el contenido del elemento
+	 * @return true si el texto coincide, false de lo contrario.
+	 */
+	public boolean validarTexto(WebElementFacade element, String textoEsperado) {
+		try {
+			String actualText = element.getText().trim();
+			return actualText.equals(textoEsperado);
+		} catch (Exception e) {
+			ExcepcionesProyecto.validaExcepcion(e.toString());
+			return false;
 		}
 	}
 

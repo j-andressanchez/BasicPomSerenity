@@ -12,11 +12,11 @@ public class DataDrivenDefinition {
 	@Steps
 	DataDrivenSteps dataSteps;
 
-	@Given("obtener datos de prueba {int}")
+	@Given("Se obtienen los datos de prueba {int}")
 	public void obtenerDatosPrueba(int intCaso) {
-		dataSteps.obtenerDatosPrueba(Constantes.RUTA_DATADRIVEN, intCaso, Constantes.CREAR_EXCEPCION);
+		dataSteps.obtenerDatosPrueba(Constantes.RUTA_DATADRIVEN, intCaso, "Exitoso");
 	}
-	
+
 	@When("realizar acciones")
 	public void realizarAcciones() {
 		// Llamar métodos que realicen las acciones de las pruebas
@@ -24,6 +24,6 @@ public class DataDrivenDefinition {
 
 	@Then("validacion de resultados")
 	public void validarResultados() {
-		// Llamaar métodos que haga las aserciones y validaciones
+		// Llamar métodos que haga las aserciones y validaciones
 	}
 }

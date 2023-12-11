@@ -7,7 +7,7 @@ public class Constantes {
 		throw new IllegalStateException("Clase utilitaria: Constantes");
 	}
 
-	public static final String RUTA_DATADRIVEN = "datadriven/BaseDataDriven.xlsx";
+	public static final String RUTA_DATADRIVEN = "src/test/resources/datadriven/BaseDataDriven.xlsx";
 	public static final String CREDENCIALES_PATH = "src/test/resources/credenciales/credenciales.properties";
 	public static final String RUTA_LOG = "logs/log_excepciones.txt";
 	public static final String RUTA_LOG_EJECUCION = "src/test/resources/ejecuciones/log_ejecuciones.txt";

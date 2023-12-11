@@ -8,5 +8,6 @@ Feature: Obtener Datos
     
   Examples:
       | Caso | 
-      ##@externaldata@datadriven/BaseDataDriven.xlsx@Escenario
+      ##@externaldata@src/test/resources/datadriven/BaseDataDriven.xlsx@Exitoso
 |1|
+|2|

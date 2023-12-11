@@ -76,7 +76,7 @@ public class ExcepcionesProyecto {
 				lanzarExcepcion(ELEMENT_SHOULD_BE_ENABLED_EXCEPTION);
 				break;
 			default:
-				fail(strExcepcion + " Se presento un problema inesperado");
+				fail(strExcepcion + " Se presento un problema inesperado: ");
 				break;
 		}
 	}
