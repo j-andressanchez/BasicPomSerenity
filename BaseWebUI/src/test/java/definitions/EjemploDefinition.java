@@ -33,7 +33,7 @@ public class EjemploDefinition {
 
 	@Then("El usuario no debería acceder al catálogo")
 	public void validarLoginFail() {
-		ejemploSteps.validarLogin();
+		ejemploSteps.validarLoginError();
 	}
 
 }

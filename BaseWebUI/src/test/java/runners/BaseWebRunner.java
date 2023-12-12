@@ -29,7 +29,7 @@ public class BaseWebRunner {
 	@RunWith(CucumberWithSerenity.class)
 	@CucumberOptions( 
 			features = Constantes.RUTA_FEATURES, 
-			tags = "@Fallido", // Configurar el(os) tag(s) a ejecutar
+			tags = "@Exitoso or @Fallido", // Configurar el(os) tag(s) a ejecutar
 			snippets = CucumberOptions.SnippetType.CAMELCASE,
 			glue = { "definitions" } )
 	public class TestRunner {
