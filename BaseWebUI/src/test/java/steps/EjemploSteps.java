@@ -34,6 +34,7 @@ public class EjemploSteps {
 		try {
 			accionesWeb.esperaCargaPagina();
 			accionesWeb.escribirTexto(ejemploUi.getTextUser(), dataDriven.getDataMap("User"));
+			accionesWeb.tomarEvidencia();
 			accionesWeb.escribirTexto(ejemploUi.getTextPass(), dataDriven.getDataMap("Pass"));
 			accionesWeb.clickElemento(ejemploUi.getBotonLogin());
 		} catch (Exception e) {
