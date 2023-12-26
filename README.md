@@ -33,3 +33,10 @@ mvn verify -{PerfilRunner} -Dcucumber.filter.tags="@TagAEjecutar" -Denvironment=
 
  *Ejemplo*
 mvn verify -{BaseWebRunner} -Dcucumber.filter.tags="@Exitoso" -Denvironment="QA"
+```
+
+Se puede ejecutar el Runner directamente desde el IDE, pero esto no generará reporte de forma automatica, se deberá correr en consola desde el IDE el comando para generar las evidencias y reportes de la última ejecución
+
+```bash
+mvn serenity:aggregate
+```
