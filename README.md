@@ -4,7 +4,7 @@ Este proyecto utiliza Serenity y Selenium para la automatización de pruebas de 
 
 ## Diagrama de interacción
 
-![Diagrama de Interacción](Docs/AutomationBaseDiagram.png)
+![Diagrama de Interacción](Images/AutomationBaseDiagram.png)
 
 ## Requisitos
 
