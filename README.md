@@ -4,7 +4,7 @@ Este proyecto utiliza Serenity y Selenium para la automatización de pruebas de 
 
 ## Diagrama de interacción
 
-![Diagrama de Interacción](./Docs/AutomationBaseDiagram.drawio.png)
+![Diagrama de Interacción](Docs/AutomationBaseDiagram.drawio.png)
 
 ## Requisitos
 
@@ -31,6 +31,5 @@ Para ejecutar las pruebas, puedes utilizar Maven. Abre una terminal en la raíz 
 ```bash
 mvn verify -{PerfilRunner} -Dcucumber.filter.tags="@TagAEjecutar" -Denvironment="Ambiente"
 
-- **Ejemplo**
-```bash
+ *Ejemplo*
 mvn verify -{BaseWebRunner} -Dcucumber.filter.tags="@Exitoso" -Denvironment="QA"
