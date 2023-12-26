@@ -1,20 +1,28 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Proyecto de Automatización con Serenity y Selenium
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Este proyecto utiliza Serenity y Selenium para la automatización de pruebas de software. [Serenity BDD](http://www.thucydides.info/docs/serenity/) proporciona un marco de trabajo BDD (Behavior-Driven Development) que simplifica la creación de pruebas automatizadas y genera informes detallados.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Requisitos
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (Versión recomendada: Java 11)
+- [Maven](https://maven.apache.org/download.cgi)
+- [Eclipse](https://www.eclipse.org/downloads/) u otro entorno de desarrollo Java (opcional)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Configuración del Proyecto
+
+1. Clona este repositorio: `git clone https://dev.azure.com/ecopetrolad/AgileDevOps/_git/Automatizaci%C3%B3nWebBase`
+2. Abre el proyecto en tu entorno de desarrollo (Eclipse, IntelliJ, etc.).
+3. Configura las dependencias de Maven.
+
+## Estructura del Proyecto
+
+- **src/test/java:** Contiene los archivos fuente de las pruebas.
+- **src/test/resources:** Almacena los archivos de recursos como archivos de características de Cucumber.
+- **target:** Directorio donde se generan los informes y otros archivos de construcción.
+
+## Ejecución de las Pruebas
+
+Para ejecutar las pruebas, puedes utilizar Maven. Abre una terminal en la raíz del proyecto y ejecuta:
+
+```bash
+mvn clean verify

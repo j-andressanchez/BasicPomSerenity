@@ -12,9 +12,14 @@ public class DataDrivenDefinition {
 	@Steps
 	DataDrivenSteps dataSteps;
 
-	@Given("obtener datos de prueba {int}")
-	public void obtenerDatosPrueba(int intCaso) {
-		dataSteps.obtenerDatosPrueba(Constantes.RUTA_DATADRIVEN, intCaso, Constantes.CREAR_EXCEPCION);
+	@Given("Se obtienen los datos de prueba correctos {int}")
+	public void obtenerDatosPruebaCorrectos(int intCaso) {
+		dataSteps.obtenerDatosPrueba(Constantes.RUTA_DATADRIVEN, intCaso, "EjemploExitoso");
+	}
+
+	@Given("Se obtienen los datos de prueba incorrectos {int}")
+	public void obtenerDatosPruebaIncorrectos(int intCaso) {
+		dataSteps.obtenerDatosPrueba(Constantes.RUTA_DATADRIVEN, intCaso, "EjemploFallido");
 	}
 	
 	@When("realizar acciones")
