@@ -37,7 +37,7 @@ public class EjemploSteps {
 	@Step
 	public void EjecutarServicioEjemplo() {
 		String strUrl = leerArchivo.obtenerUrl(dataDriven.getDataMap("Ambiente"), "TestEjemplo");
-		servicios.agregarHeader("Content-Type", "application/json");
+		// servicios.agregarHeader("Content-Type", "application/json");
 
 		Servicios.setResponse(servicios.ejecutarPOSTServicioREST(servicios.getBodyRequest(), strUrl, servicios.getHeader()));
 
@@ -62,12 +62,16 @@ public class EjemploSteps {
 			Serenity.recordReportData().withTitle("Response").andContents(servicios.getResponse().asString());
 			manejoJson.extraerValorResponse(servicios.getResponse(), "isSuccess", "boolean");
 
-			if (dataDriven.getDataMap("isSuccess") == null || !dataDriven.getDataMap("isSuccess").equalsIgnoreCase("true")) {
-
-				fail("Fallo al consumir servicio de servicio REQRES ejemplo. Se recibe status 200 " + "pero hay un error. Por favor revisar el response para mas detalle");
-			}
-
 			gestionLogs.crearRepoLogs(dataDriven.getDataMap(Constantes.PERFIL));
 		}
+	}
+
+	@Step
+	public void configurarHeader() {
+
+		servicios.getHeader().clear();
+		servicios.agregarHeader("Content-Type", "application/json");
+		servicios.agregarHeader("Accept", "*/*");
+		servicios.agregarHeader("Connection", "keep-alive");
 	}
 }

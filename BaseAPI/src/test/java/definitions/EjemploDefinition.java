@@ -13,6 +13,7 @@ public class EjemploDefinition {
 	@When("Se construye request de consulta")
 	public void ConstruirRequestEjemplo() {
 		ejemploStep.ConstruirRequestEjemplo();
+		ejemploStep.configurarHeader();
 	}
 
 	@When("Se ejecuta la consulta")
