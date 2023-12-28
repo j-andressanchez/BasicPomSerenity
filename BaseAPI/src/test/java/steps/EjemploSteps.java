@@ -68,7 +68,6 @@ public class EjemploSteps {
 
 	@Step
 	public void configurarHeader() {
-
 		servicios.getHeader().clear();
 		servicios.agregarHeader("Content-Type", "application/json");
 		servicios.agregarHeader("Accept", "*/*");

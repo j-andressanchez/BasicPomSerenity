@@ -1,6 +1,11 @@
 # Proyecto de Automatización con Serenity y Selenium
 
-Este proyecto utiliza Serenity y Selenium para la automatización de pruebas de software. [Serenity BDD](http://www.thucydides.info/docs/serenity/) proporciona un marco de trabajo BDD (Behavior-Driven Development) que simplifica la creación de pruebas automatizadas y genera informes detallados.
+
+Este proyecto utiliza Serenity y Cucumber para la automatización de pruebas de software.
+
+[Serenity BDD](https://serenity-bdd.github.io) proporciona un marco de trabajo BDD (Behavior-Driven Development) que simplifica la creación de pruebas automatizadas y genera informes detallados.
+
+[Cucumber](https://cucumber.io) potencia el Desarrollo Guiado por Comportamiento (BDD). Este marco de trabajo simplifica la automatización de pruebas al permitir expresar comportamientos en un lenguaje natural.
 
 ## Diagrama de interacción
 
@@ -9,8 +14,11 @@ Este proyecto utiliza Serenity y Selenium para la automatización de pruebas de 
 ## Requisitos
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (Versión usada: Java 11)
-- [Maven](https://maven.apache.org/download.cgi) (Versión usada: Java 2.4.3)
+- [Maven](https://maven.apache.org/download.cgi) (Versión usada: 1.8)
 - [Eclipse](https://www.eclipse.org/downloads/) u otro entorno de desarrollo Java (opcional)
+- [Serenity BDD](https://serenity-bdd.github.io) (Versión usada: 2.4.3)
+- [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/) (Versión usada: 4.0.8)
+- [RestAssured](https://serenity-bdd.github.io/docs/tutorials/rest) (Versión usada: 2.4.3)
 
 ## Configuración del Proyecto
 
