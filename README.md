@@ -22,7 +22,7 @@ Este proyecto utiliza Serenity y Cucumber para la automatización de pruebas de 
 
 ## Configuración del Proyecto
 
-1. Clona este repositorio: `git clone https://dev.azure.com/ecopetrolad/AgileDevOps/_git/WebAutomationBase`
+1. Clona este repositorio: `git clone https://[dev.azure.com/ecopetrolad/AgileDevOps/_git/WebAutomationBase](https://github.com/j-andressanchez/BasicPomSerenity)`
 2. Abre el proyecto en tu entorno de desarrollo (Eclipse, IntelliJ, etc.).
 3. Configura las dependencias de Maven.
 
